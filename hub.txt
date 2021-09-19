@@ -3,4 +3,4 @@ shortLabel SV Hub
 longLabel A Hub for structural variants data in human and rhesus
 genomesFile genomes.txt
 email uplee@pku.edu.cn
-descriptionUrl http://202.205.131.254:8088/ucsc_track/trackHub/SVHub/html/index.html
+descriptionUrl https://raw.githubusercontent.com/pkubgmlixs/SVhub/main/html/index.html
