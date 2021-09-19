@@ -1,0 +1,9 @@
+genome hg38
+trackDb hg38/trackDb.txt
+
+genome rheMac10
+trackDb rheMac10/trackDb.txt
+
+genome rheMac8
+trackDb rheMac8/trackDb.txt
+
