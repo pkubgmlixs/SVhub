@@ -412,7 +412,7 @@ dragAndDrop subTracks
 	parent BgmHRInvInterm on
 	bigDataUrl SV/crossSpecies/HRInv/bgmInv/wholeChrCuration/interm/wholeChr/inv.wholeChr_retained.wholeChr.uniform.hg38.bb
 	shortLabel BGM's Curated WHOLE-CHR Human-Rhesus Inversions
-	longLabel BGM's Curated Whole-chromosome Human-Rhesus Inversions
+	longLabel BGM's Curated Whole-chromosome Human-Rhesus Inversions (wholeChr)
 	type bigBed 9
 
 	### 2. SmallInv
