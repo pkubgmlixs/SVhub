@@ -1,2 +1,0 @@
-scp 162.105.134.222:/rd1/user/lixs/Projects/1KMG/HiC/human_fetal_brain/hg38/domain/liftOverFromHg19/loop/consloop.hg38.bb ./
-scp 162.105.134.222:/rd1/user/lixs/Projects/1KMG/HiC/human_fetal_brain/hg38/domain/liftOverFromHg19/loop/hsloop.hg38.bb ./
