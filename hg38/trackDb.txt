@@ -459,7 +459,7 @@ track invFishProbe
 superTrack on show
 shortLabel Human-Rhesus Inversion FISH Probes
 longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
-
+	# PartB
         track ProbePartB
         parent invFishProbe
         bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partB_u_probes.bb
@@ -493,7 +493,8 @@ longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
 	longLabel Genomic Coverage of PartB Canprobes Probes (Tm: 42~47) in 50kb Windows
 	type bigWig
 	visibility dense
-
+	
+	# PartF
         track ProbePartF
         parent invFishProbe
         bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partF_u_probes.bb
@@ -527,7 +528,43 @@ longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
 	longLabel Genomic Coverage of PartF Canprobes Probes (Tm:42~47) in 50kb Windows
 	type bigWig
 	visibility dense
-		
+
+        # PartD (largeInv)
+        track ProbePartD
+        parent invFishProbe
+        bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partD_largeInv_u_probes.bb
+        shortLabel PartD Candidate Probes
+        longLabel PartD Canprobes Probes (Tm: 42~47)
+        type bigBed
+        visibility dense
+        maxItems 100000
+
+        track ProbeRegionPartD
+        parent invFishProbe
+        bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partD_largeInv.proDens5_5d5.bb
+        shortLabel PartD Candidate Probe Regions
+        longLabel PartD Candidate Probe Regions (Tm: 42~47;ProbeDens: 5~5.5)
+        type bigBed
+        visibility dense
+        maxItems 100000
+
+        track ProbeTmPartD
+        parent invFishProbe
+        bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partD_largeInv_u_probes.tm.bw
+        shortLabel Tm of PartD Candidate Probes
+        longLabel Tm of PartD Canprobes Probes (Tm: 42~47)
+        type bigWig
+        visibility dense
+
+        track ProbeCovPartD
+        parent invFishProbe
+        bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partD_largeInv.bin50kb.probeCov.bw
+        shortLabel Coverage of PartD Candidate Probes
+        longLabel Genomic Coverage of PartD Candidate Probes (Tm:42~47) in 50kb Windows
+        type bigWig
+        visibility dense
+
+	# Chr7
         track ProbeChr7
         parent invFishProbe
         bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_chr7_u_probes.bb
