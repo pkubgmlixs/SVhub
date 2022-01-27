@@ -4,6 +4,15 @@ shortLabel Human-Rhesus Inversion FISH Probes
 longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
 	
 	# PartB
+	track ProbePartB
+	parent invFishProbe
+	bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_probes.bb
+	shortLabel PartB Candidate Probes
+	longLabel PartB Canprobes Probes (Tm: 42~47)
+	type bigBed
+	visibility dense
+	maxItems 100000
+	
 	track ProbeRegionPartB
 	parent invFishProbe
 	bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_proReg.bb
