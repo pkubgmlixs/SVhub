@@ -459,40 +459,6 @@ track invFishProbe
 superTrack on show
 shortLabel Human-Rhesus Inversion FISH Probes
 longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
-	# PartB
-        track ProbePartB
-        parent invFishProbe
-        bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partB_u_probes.bb
-        shortLabel PartB Candidate Probes
-        longLabel PartB Canprobes Probes (Tm: 42~47)
-        type bigBed
-        visibility dense
-	maxItems 100000
-
-	track ProbeRegionPartB
-	parent invFishProbe
-	bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partB_u_proReg.proDens5_5d5.bb
-	shortLabel PartB Candidate Probe Regions
-	longLabel PartB Candidate Probe Regions (Tm: 42~47;ProbeDens: 5~5.5)
-	type bigBed
-	visibility dense
-	maxItems 100000
-
-	track ProbeTmPartB
-	parent invFishProbe
-	bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partB_u_probes.tm.bw
-	shortLabel Tm of PartB Candidate Probes
-	longLabel Tm of PartB Canprobes Probes (Tm: 42~47)
-	type bigWig
-	visibility dense
-
-	track ProbeCovPartB
-	parent invFishProbe
-	bigDataUrl SV/crossSpecies/HRInv/bgmInv/FISH_probe/hg38_partB.bin50kb.probeCov.bw
-	shortLabel Coverage of PartB Candidate Probes
-	longLabel Genomic Coverage of PartB Canprobes Probes (Tm: 42~47) in 50kb Windows
-	type bigWig
-	visibility dense
 	
 	# PartF
         track ProbePartF
