@@ -2,42 +2,34 @@ track invFishProbe
 superTrack on show
 shortLabel Human-Rhesus Inversion FISH Probes
 longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
-		# PartB
-		track ProbePartB
-        parent invFishProbe
-        bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_probes.bb
-        shortLabel PartB Candidate Probes
-        longLabel PartB Canprobes Probes (Tm: 42~47)
-        type bigBed
-        visibility dense
-		maxItems 100000
-
-		track ProbeRegionPartB
-		parent invFishProbe
-		bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_proReg.bb
+	
+	# PartB
+	track ProbeRegionPartB
+	parent invFishProbe
+	bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_proReg.bb
         shortLabel PartB Candidate Probe Regions
         longLabel PartB Candidate Probe Regions (Tm: 42~47;ProbeDens: 5~5.5)
         type bigBed
         visibility dense
         maxItems 100000
 
-		track ProbeTmPartB
-		parent invFishProbe
-		bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_probes.bw
-		shortLabel Tm of PartB Candidate Probes
-		longLabel Tm of PartB Canprobes Probes (Tm: 42~47)
-		type bigWig
-		visibility dense
+	track ProbeTmPartB
+	parent invFishProbe
+	bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB_u_probes.bw
+	shortLabel Tm of PartB Candidate Probes
+	longLabel Tm of PartB Canprobes Probes (Tm: 42~47)
+	type bigWig
+	visibility dense
 
-		track ProbeCovPartB
-		parent invFishProbe
-		bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB.bin50kb.probeCov.bw
-		shortLabel Coverage of PartB Candidate Probes
-		longLabel Genomic Coverage of PartB Canprobes Probes (Tm: 42~47) in 50kb Windows
-		type bigWig
-		visibility dense
+	track ProbeCovPartB
+	parent invFishProbe
+	bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partB.bin50kb.probeCov.bw
+	shortLabel Coverage of PartB Candidate Probes
+	longLabel Genomic Coverage of PartB Canprobes Probes (Tm: 42~47) in 50kb Windows
+	type bigWig
+	visibility dense
 		
-		# PartF
+	# PartF
         track ProbePartF
         parent invFishProbe
         bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partF_u_probes.bb
@@ -67,10 +59,10 @@ longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
         track ProbeCovPartF
         parent invFishProbe
         bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_partF.bin50kb.probeCov.bw
-		shortLabel Coverage of PartF Candidate Probes
-		longLabel Genomic Coverage of PartF Canprobes Probes (Tm:42~47) in 50kb Windows
-		type bigWig
-		visibility dense
+	shortLabel Coverage of PartF Candidate Probes
+	longLabel Genomic Coverage of PartF Canprobes Probes (Tm:42~47) in 50kb Windows
+	type bigWig
+	visibility dense
 
         # PartD
         track ProbePartD
@@ -107,7 +99,7 @@ longLabel Human-Rhesus Inversion FISH Probes (Human chr7 - Rhesus chr3)
         type bigWig
         visibility dense
 		
-		# Chr3
+	# Chr3
         track ProbeChr3
         parent invFishProbe
         bigDataUrl SV/crossSpecies/invFISH_probe/rheMac10_chr3_u_probes.bb
@@ -211,12 +203,12 @@ dragAndDrop subTracks
         longLabel Fetal CP TAD Boundary by SuBing's Lab
         type bigBed
 
-		track suBingFetalGzTadBd
-		parent suBingFetalBrainTAD
-		bigDataUrl hic/suBingHiC/liftOverFromRheMac8/tad/tadBD.GZ.idx.rheMac10.bb
-		shortLabel Fetal GZ TAD Boundary
-		longLabel Fetal GZ TAD Boundary by SuBing's Lab
-		type bigBed
+	track suBingFetalGzTadBd
+	parent suBingFetalBrainTAD
+	bigDataUrl hic/suBingHiC/liftOverFromRheMac8/tad/tadBD.GZ.idx.rheMac10.bb
+	shortLabel Fetal GZ TAD Boundary
+	longLabel Fetal GZ TAD Boundary by SuBing's Lab
+	type bigBed
 
         track suBingFetalRsTadBd
         parent suBingFetalBrainTAD
